@@ -67,12 +67,18 @@ nav {
     display: none;
     top:100%;
 }
-.nav-toggle-lavel {
-    font-size: 2rem;
-}
+
 
 #nav-toggle:checked ~ nav {
     display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
 }
 
 /* Main Content */
