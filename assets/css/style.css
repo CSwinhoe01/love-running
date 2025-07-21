@@ -26,7 +26,25 @@
 
 /* Header */
 header {
-    background-color:lightcoral;
+    background-color:#ffffff;
+    padding: 0 1rem;
+    display: fixed; 
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;;
+}
+
+
+
+/* Main Content */
+main {
+    background-color: lightblue;
+    /* Make main element take up any surplus space to push the footer down */
+    flex: 1 0 auto;
 }
 
 /* Generic styles */
@@ -37,13 +55,6 @@ body {
     /* Generic project styles */
     color: #3a3a3a;
     font-family: 'lato', sans-serif;
-}
-
-/* Main Content */
-main {
-    background-color: lightblue;
-    /* Make main element take up any surplus space to push the footer down */
-    flex: 1 0 auto;
 }
 
 /* Footer */
